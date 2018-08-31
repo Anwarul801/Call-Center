@@ -1,0 +1,93 @@
+body{
+	font-family: 'Lora', serif;
+}
+
+#heder_area{background: #f8f8f8;border-top: 10px solid #1c1c1c; padding: 45px 0;width: 100%;clear: both;}
+
+#heder_area form{float: right; width: 300px}
+#heder_area form input[type="text"]{
+	border: 2px solid #ddd;
+    background: #fff;
+    padding: 10px;
+    width: 215px;
+    float: left;
+}
+
+#heder_area form input[type="submit"]{
+	background: #d54346;
+	color: #fff;
+	padding: 10px;
+	width: 85px;
+	float: left;
+	border: 2px solid #d54346;
+	cursor: pointer;
+	transmition:0.5s;
+}
+
+#menu_area{padding: 18px 0; border-top: 2pc ssolid #ddd;border-bottom: 2px solid #ddd;clear: both;width: 100%;}
+#menu_area ul#nav{list-style: none;margin: 0;padding: 0;text-align: left;}
+#menu_area ul#nav li{display: inline-block;position: relative; border-right: 1px solid #999999;}
+#menu_area ul#nav li a{display: block;padding: 0 20px; font-size: 12px; text-transform: uppercase;color: #333333}
+#menu_area ul#nav li a span{display: block; color: #999999;font-size: 12px;}
+#menu_area ul#nav li a:hover{}
+/*icon*/
+#menu_area ul#social{list-style: none;margin: 0;padding: 0;}
+#menu_area ul#social li{display: inline-block;position: relative; clear: both;}
+#menu_area ul#social li a i{display: block;padding: 10px;  border-radius: 50%;width: 35px;height: 35px;}
+
+/*Banner*/
+
+#slider{width: 100%;padding: 0;margin: 0;position: relative;}
+#slider img{width: 100%;height: auto;}
+#slider .inner_banner{left: 0;top: 0;width: 100%;height: 100%;position: absolute;}
+#slider .inner_text_area{width: 100%;height: 100%; display: table;}
+#slider .inner_main_text_banner{display: table-cell; vertical-align: middle;width: 100%;}
+#slider .inner_main_text_banner h1{font-size: 80px;color: #090c0c;line-height: 1cm;}
+#slider .inner_main_text_banner h2{font-size: 40px;color: #090c0c;line-height: 1cm;}
+
+#slider #banner_botton{position: absolute;bottom: 0;left: 0;width: 100%;position: 20px 0;
+text-align:center;z-index: 1;opacity: 0.8;}
+#slider #banner_botton p{color: #000;margin: 0;}
+
+/*client section*/
+
+#client{width: 100%;padding: 40px 0; text-align: center;}
+#client h2{font-size: 38px; color: #4a4a4a;}
+#client p{font-size: 26px;color: #999999;}
+#client img{display: block;margin: 0;}
+#client h3{font-size: 13px;color: #999999; margin-top: 15px;text-align: center;}
+#client a{ color: #d54346;}
+
+
+#project_area{background: #fff;padding: 50px 0;border-top: 2px solid #ddd;clear: both;}
+#project_area  h4{text-align: right;font-size:20px;color: #4a4a4a; padding-right: 50px;padding-top: 50px;}
+#project_area  h2{font-size: 66px;color: #d44346;text-align: right; padding-right: 50px; }
+#project_area .right_site{width: 48%; float: left; margin: 0 1% 10px;padding: 
+10px;}
+#project_area .right_site{text-align: center;}
+#project_area .right_site img{}
+#project_area .right_site h3{font-size:20px;color: #4a4a4a;text-align: center; }
+#project_area .right_site p{font-size: 13px;color: #999999; text-align: center;}
+#project_area .right_site a{text-align: center;border-radius: 5px;color: #fff;font-size: 13px;margin: 10px;background: #d54346;padding: 10px;}
+
+/*footer section*/
+#footer_area{background: #d54346; border-top: 10px solid #871f21;
+clear: both;width: 100%;padding: 40px 0; color: #fff;padding-right: 20px;}
+#footer_area h2{color: #ffffff; font-size: 12px; padding-bottom: 25px;}
+#footer_area p{font-size: 13px;color: #fff;}
+#footer_area a{color: #631618;font-size: 13px;text-decoration: none;}
+#footer_area ul{margin: 0;padding:0;}
+#footer_area ul li{border-bottom: 2px solid #d85255;padding-bottom: 10px;}
+#footer_area ul li a{text-decoration: none;font-size:12px;color: #631618;padding: 10px; }
+
+#footer_area form{margin:0;padding:0;}
+#footer_area h3{font-size: 13px;}
+#footer_area form input[type="text"]{width: 100%;height: 30px;font-size: 13px;color: #ddd; background: #fff;border-radius: 5px;}
+#footer_area form input[type="submit"]{font-size: 13px;color: #871f21;padding: 10px; border-radius: 5px;margin-top: 5px;margin-bottom: 20px;}
+#footer_area address{font-size: 12px;}
+
+/*copyright*/
+
+#copyright_area{border-top: 1px solid #db6063;background: #d54346;
+font-size: 12px;padding: 25px 0;}
+#copyright_area h2{font-size: 12px;color: #fff;}
